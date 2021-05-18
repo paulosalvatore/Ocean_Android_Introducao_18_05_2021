@@ -14,5 +14,13 @@ class MainActivity : AppCompatActivity() {
         tvNome.setOnClickListener {
             tvNome.text = "Novo texto"
         }
+
+        /*
+        * Exercício de fixação:
+        *
+        * Detectar um evento no botão enviar
+        * Pegar o texto presente no EditText do Nome
+        * Alterar o texto do TextView com o esse texto do EditText
+        */
     }
 }
