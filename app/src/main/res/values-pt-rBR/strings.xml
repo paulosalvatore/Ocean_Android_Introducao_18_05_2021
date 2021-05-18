@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Samsung Ocean: Android Intro</string>
     <string name="insert_your_name">Insira o seu nome...</string>
+    <string name="send">Enviar</string>
+    <string name="insert_valid_name">Digite um nome válido!</string>
 </resources>
