@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         val tvNome = findViewById<TextView>(R.id.tvNome)
 
-        tvNome.text = "Novo texto"
+        tvNome.setOnClickListener {
+            tvNome.text = "Novo texto"
+        }
     }
 }
