@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
          *
          * Ao clicar no botão Enviar, você deve adicionar uma mensagem de erro em todos os EditTexts
          * que não passaram da validação.
+         *
+         * Além disso, o app deve estar com idioma padrão em inglês e traduzido para o português.
          */
     }
 }
