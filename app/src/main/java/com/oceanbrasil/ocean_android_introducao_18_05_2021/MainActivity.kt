@@ -16,8 +16,10 @@ class MainActivity : AppCompatActivity() {
         val etNome = findViewById<EditText>(R.id.etNome)
 
         btEnviar.setOnClickListener {
-            if (etNome.text.isNotBlank()) {
-                tvNome.text = etNome.text.toString()
+            val nome = etNome.text.toString()
+
+            if (nome.isNotBlank()) {
+                tvNome.text = nome
             } else {
                 etNome.error = "Digite um nome válido!"
             }
